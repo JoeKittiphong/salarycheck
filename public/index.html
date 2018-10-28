@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body onload="hideInit()">
+    <div class="container" id="content">
+        <nav>
+            <input type="button" value="คิดเงิน" id="money">
+            <input type="button" value="สวัสดิการ" id="welfare">
+        </nav>
+        <div id="output">
+            <div id="calc">
+                <input type="text" placeholder="ทำงาน / วัน" id="calc_wd">
+                <input type="text" placeholder="ทำ OT / วัน" id="calc_o15">
+                <input type="text" placeholder="วันหยุด / วัน" id="calc_o2">
+                <input type="text" placeholder="นักขัตฤกษ์ / วัน" id="calc_hd">
+                <input type="text" placeholder="เบี้ยขยันรายเดือน / บาท" id="calc_diligM">
+            </div>
+            <div class="butt">
+                <input type="button" value="คิดเงิน" id="calcBtn">
+            </div>
+            <div id="result">
+                <div class="txt">
+                    <p>ค่าจ้างวันปกติ</p>
+                    <p>นักขัตฤกษ์</p>
+                    <p>เบี้ยขยันรายเดือน</p>
+                    <p>ล่วงเวลาวันปกติ</p>
+                    <p>ล่วงเวลาวันหยุด 2</p>
+                    <p>ล่วงเวลาวันหยุด 3</p>
+                    <p>ค่าอาหารวันปกติ</p>
+                    <p>ค่าอาหาร 1.5</p>
+                    <p>ค่าอาหาร 3</p>
+                    <p>เบี้ยขยันวันปกติ</p>
+                    <p>เบี้ยขยันวันหยุด</p>
+                </div>
+                <div id="vals">
+                    <p id="out_salary">0</p>
+                    <p id="out_shd">0</p>
+                    <p id="out_diligm">0</p>
+                    <p id="out_o15">0</p>
+                    <p id="out_o2">0</p>
+                    <p id="out_o3">0</p>
+                    <p id="out_food">0</p>
+                    <p id="out_f15">0</p>
+                    <p id="out_f3">0</p>
+                    <p id="out_diligD">0</p>
+                    <p id="out_diligH">0</p>
+                </div>
+            </div>
+
+        </div>
+        <div id="welfareval" class="showvals">
+            <div class="key">
+                <p>ค่าแรง</p>
+                <p>OT 1.5</p>
+                <p>OT 2</p>
+                <p>OT 3</p>
+                <p>ค่าอาหาร</p>
+                <p>ค่าอาหาร OT 1.5</p>
+                <p>ค่าอาหาร OT 2</p>
+                <p>ค่าอาหาร OT 3</p>
+                <p>ค่าอาหารกะดึก</p>
+                <p>ค่ากะดึก</p>
+                <p>เบี้ยขยันรายวัน</p>
+                <p>เบี้ยขยันวันหยุด</p>
+                <p>ค่า OT สว่าง</p>
+                <p>เบี้ยขยันรายเดือน</p>
+            </div>
+            <div class="vals">
+                <p>325</p>
+                <p>60.94</p>
+                <p>81.25</p>
+                <p>121.88</p>
+                <p>20</p>
+                <p>20</p>
+                <p>20</p>
+                <p>10</p>
+                <p>10</p>
+                <p>60</p>
+                <p>20</p>
+                <p>10</p>
+                <p>100</p>
+                <p>500</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="action.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+.container{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+#output{
+    border: 1px solid;
+    z-index: 20;
+    background-color: aquamarine;
+}
+#welfareval{
+    border: 1px solid;
+    z-index: 20;
+    background-color: aquamarine;
+}
+#calc{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aquamarine;
+}
+.butt{
+    width: 90%;
+    text-align: center;
+}
+#calc input[type="text"]{
+    width: 95%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin: 5px;
+}
+.butt{
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background-color: blueviolet;
+}
+input[type="button"]{
+    width: 95%;
+    height: 60px;
+    font-size: 30px;
+    align-items: center;
+    margin: 5px;
+}
+#result{
+    width: 90%;
+    margin: 0 auto;
+    height: 420px;
+    background-color: aquamarine;
+}
+#result .txt{
+    float: left;
+    line-height: 5px;
+    font-size: 30px;
+    margin-left: 15px;
+}
+#vals{
+    float: right;
+    line-height: 5px;
+    font-size: 30px;
+    margin-right: 15px;
+}
+nav{
+    width: 100%;
+    height: 50px;;
+    margin: 0 auto;
+    text-align: center;
+    background-color: aqua;
+}
+nav #money,
+nav #welfare{
+    width: 47%;
+    height: 100%;
+    margin: 0;
+    border: 1px solid;
+    transform: translateY(1px)
+}
+
+
+.key{
+    float: left;
+    line-height: 5px;
+    font-size: 30px;
+    margin-left: 15px;
+    text-align: left;
+}
+.vals{
+    float: right;
+    line-height: 5px;
+    font-size: 30px;
+    margin-left: 15px;
+    text-align: right;
+}
+.showvals{
+    width: 100%;
+    border: 1px solid;
+}
+
+
